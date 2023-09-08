@@ -1,5 +1,5 @@
 import Footer from '../Components/TestComponent';
 import Navbar from '../Components/Navbar';
-console.log('test');
+console.log('another-test');
 Footer();
 Navbar();

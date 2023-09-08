@@ -6,8 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "serve": "serve",
-        "build": "esbuild ./src/home/* ./src/about/* --bundle --sourcemap --minify --outdir=dist --watch",
-        "format": "prettier src/*.ts -w"
+        "build": "esbuild ./src/home/* ./src/about/* --bundle --sourcemap --minify --outdir=dist --watch"
     },
     "repository": {
         "type": "git"

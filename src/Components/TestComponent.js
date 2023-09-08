@@ -3,6 +3,7 @@ import { ScrollTrigger } from 'gsap/all';
 import imagesLoaded from 'imagesloaded';
 
 export default function Footer() {
+    console.log('footer');
     const body = document.querySelector('body');
     const juiceBox = document.querySelector('.footer_cta-img');
     imagesLoaded('.page-wrapper', () => {

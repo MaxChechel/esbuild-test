@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "serve": "serve",
-        "build": "esbuild ./src/home/* ./src/about/* --bundle --minify --outdir=dist"
+        "build": "esbuild ./src/home/index.js ./src/about/index.js --bundle --minify --outdir=dist"
     },
     "repository": {
         "type": "git"
